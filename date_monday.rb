@@ -10,6 +10,4 @@
 
 require "date"
 
-p "Is today monday?"
-
-p Date.today.monday?
+p "Is today monday?" + Date.today.monday?.to_s
